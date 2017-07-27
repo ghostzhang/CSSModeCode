@@ -1,0 +1,20 @@
+html,body{background-color:#292929;color:#FFFFFF;font-family: Arial, Helvetica, Tahoma, sans-serif; font-size:14px;}
+li {margin-bottom:14px}
+code {font-size:14px}
+div{padding:3px 0;}
+input {font-size:12px;font-weight:bolder;vertical-align:-2px;}
+button{vertical-align:middle;}
+.none{display:none;}
+
+.mode-csscode{width:660px;margin:auto;}
+.code-input-box{float:left;width:300px;margin-right:50px;}
+.code-input-box textarea{width:200px;vertical-align:top;background-color:#CBCBCB;}
+.code-input-box input[type=text]{width:200px;border:1px solid #5D6468;background-color:#CBCBCB;}
+#code-inputtext{width:270px;}
+
+.op{position:absolute;top:400px;left:293px;}
+.op button{display:block;padding:10px 25px;}
+#code-outputtext{background-color:#CBCBCB;}
+.code-output-box div{text-align:right;}
+
+#hint_txt{width:97%;padding:4px 10px;border:1px solid #D1E1EC;background-color:#FFFEAB;color:#029B02;text-align:left;}

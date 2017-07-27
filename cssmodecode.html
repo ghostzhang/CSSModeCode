@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="utf-8" />
+		<title>cssModeCode v1.0.20100723 | © 2010 by GhostZhang (CSSForest.org)</title>
+		<link href="sample.css" rel="stylesheet" type="text/css"/>
+		<script type="application/x-shockwave-flash" src="lib/air/library.swf"></script>
+		<script type="text/javascript" src="lib/air/AIRAliases.js" />
+		<script type="text/javascript" src="lib/jquery-1.4.2.min.js" />
+		<script type="text/javascript" src="lib/main.js" />
+	</head>
+	<body onload="cssCode.load();">
+		<div class="mode-csscode">
+			<div class="code-input-box">
+				<div>
+					<label for="code-name">模块名称：</label><input type="text" id="code-name"><!--<button class="outdefaultkey" id="outdfkey-name">&lt;</button><button class="indefaultkey" id="indfkey-name">&hearts;</button>--><br />
+					<label for="code-author">模块作者：</label><input type="text" id="code-author"><!--<button class="outdefaultkey" id="outdfkey-author">&lt;</button><button class="indefaultkey" id="indfkey-author">&hearts;</button>--><br />
+					<label for="code-version">模块版本：</label><input type="text" id="code-version"><!--<button class="outdefaultkey" id="outdfkey-version">&lt;</button><button class="indefaultkey" id="indfkey-version">&hearts;</button>--><br />
+					<label for="code-type">模块类型：</label><select id="code-type"><option>公共</option><option>基类</option><option>扩展类</option></select><!--<button class="outdefaultkey" id="outdfkey-type">&lt;</button><button class="indefaultkey" id="indfkey-type">&hearts;</button>--><br />
+					<label for="code-explain">功能说明：</label><textarea cols="15" rows="5" id="code-explain"></textarea><!--<button class="outdefaultkey" id="outdfkey-explain">&lt;</button><button class="indefaultkey" id="indfkey-explain">&hearts;</button>--><br />
+					<label for="code-relating">关联模块：</label><input type="text" id="code-relating"><!--<button class="outdefaultkey" id="outdfkey-relating">&lt;</button><button class="indefaultkey" id="indfkey-relating">&hearts;</button>--><br />
+					<label for="code-dependent">依赖模块：</label><input type="text" id="code-dependent"><!--<button class="outdefaultkey" id="outdfkey-dependent">&lt;</button><button class="indefaultkey" id="indfkey-dependent">&hearts;</button>-->				</div>
+				<label for="code-inputtext">模块内容：</label><textarea name="inputtext" id="code-inputtext" cols="30" rows="14"></textarea><br />
+				<label><input type="checkbox" id="ck-mergetext" />压缩样式</label>
+			</div>
+			<div class="code-output-box">
+				<textarea name="outputtext" id="code-outputtext" cols="35" rows="29"></textarea>
+				<div>					<button id="bt-copymergetext">复制（压缩样式）</button><button id="bt-copytext">复制（完整）</button><span id="hint_txt" style="display:none;"></span>				</div>
+			</div>
+			<div class="op">
+				<button id="bt-ltr"> --&gt; </button>
+				<!--<button id="bt-rtl"> &lt;-- </button>-->
+			</div>
+		</div>
+    </body>
+</html>
